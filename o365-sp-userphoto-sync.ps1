@@ -2,7 +2,7 @@
 $tempFolder = "c:\temp\photos\" #temporarily location to store image for resizing and re-uploading.
 $orgName = "contoso" #org prefix; e.g., contoso
 
-$adminURL = "https://" + $orgNAme  + "-admin.sharepoint.com"
+$adminURL = "https://" + $orgName  + "-admin.sharepoint.com"
 $mySiteURL = "https://" + $orgName + "-my.sharepoint.com"
 
 #Install O365 Client Side Libraries...
