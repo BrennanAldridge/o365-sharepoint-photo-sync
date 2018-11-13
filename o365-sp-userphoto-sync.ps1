@@ -1,6 +1,6 @@
-﻿﻿$csvPath = "" #CSV File that contains a single column of user email addresses. Heading = Email
+﻿﻿$csvPath = "c:\temp\users.csv" #CSV File that contains a single column of user email addresses. Heading = Email
 $tempFolder = "c:\temp\photos\" #temporarily location to store image for resizing and re-uploading.
-$orgName = "" #org prefix; e.g., contoso
+$orgName = "contoso" #org prefix; e.g., contoso
 
 $adminURL = "https://"+ $orgNAme  +"-admin.sharepoint.com"
 $mySiteURL = "https://" + $orgName + "-my.sharepoint.com"
