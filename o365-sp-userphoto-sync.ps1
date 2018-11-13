@@ -2,11 +2,11 @@
 $tempFolder = "c:\temp\photos\" #temporarily location to store image for resizing and re-uploading.
 $orgName = "contoso" #org prefix; e.g., contoso
 
-$adminURL = "https://"+ $orgNAme  +"-admin.sharepoint.com"
+$adminURL = "https://" + $orgNAme  + "-admin.sharepoint.com"
 $mySiteURL = "https://" + $orgName + "-my.sharepoint.com"
 
 #Install O365 Client Side Libraries...
-Add-Type -Path "C:\temp\Microsoft.Online.SharePoint.Client.Tenant.dll"
+Add-Type -Path "C:\Program Files\SharePoint Client Components\16.0\Assemblies\Microsoft.Online.SharePoint.Client.Tenant.dll"
 Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
 Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.UserProfiles.dll"
